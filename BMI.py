@@ -1,5 +1,5 @@
 
-def calculate_bmi(height, weight):
+def calculate_bmi(weight, height):
     print("Height = " + str(height))
     print("Weight = " + str(weight))
     bmi = weight/(height*height) 
@@ -15,4 +15,4 @@ def calculate_bmi(height, weight):
       print("Normal Weight")
       return bmi, 0
 
-calculate_bmi(weight=57, height=1.73)
+calculate_bmi( weight=57, height=1.73)
