@@ -56,4 +56,5 @@ def calc_median_temperature(num_list):
   median = sortlist[mid]
  print (f"Median temperature = {median}")
  return median
-main()
+if __name__ == "__main__":
+    main()
